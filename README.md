@@ -6,6 +6,7 @@ Codigo:
 from abc import ABC, abstractmethod
 
 class Parte(ABC):
+
     codigo = int
     nome = str
     descricao = str
